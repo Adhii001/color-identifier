@@ -43,6 +43,25 @@ A React-based web application that lets you upload any image and instantly ident
 
 - [Node.js](https://nodejs.org/) ≥ 18
 - npm ≥ 9
+- [Visual Studio Code](https://code.visualstudio.com/) (recommended editor)
+
+### Opening in VS Code
+
+**Option 1 – from the terminal:**
+```bash
+# Clone the repository, then open the folder in VS Code
+git clone https://github.com/Adhii001/color-identifier.git
+cd color-identifier
+code .
+```
+
+**Option 2 – from VS Code directly:**
+1. Launch **Visual Studio Code**.
+2. Go to **File → Open Folder…** (or press `Ctrl+K Ctrl+O` on Windows/Linux, `Cmd+K Cmd+O` on macOS).
+3. Navigate to and select the `color-identifier` folder.
+4. Click **Open**.
+
+> **Tip:** When VS Code opens the project it will prompt you to install the recommended extensions (ESLint, Prettier, React snippets, etc.). Click **Install** when prompted, or open the Extensions panel (`Ctrl+Shift+X` / `Cmd+Shift+X`) and look for workspace recommendations.
 
 ### Installation & Running Locally
 
@@ -59,6 +78,8 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+> **VS Code tip:** You can open the integrated terminal with `` Ctrl+` `` (Windows/Linux) or `` Cmd+` `` (macOS) and run the commands above without leaving the editor.
 
 ### Build for Production
 
